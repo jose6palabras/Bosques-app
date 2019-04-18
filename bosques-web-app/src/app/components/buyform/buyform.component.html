@@ -1,0 +1,83 @@
+<div id="bloqueppal">
+  <p id="busqueda">Búsqueda avanzada</p>
+  <p id="presupuesto">Presupuesto</p>
+  <div id="bloque1">
+      <mat-form-field>
+        <mat-label>Municipio</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      
+      <mat-form-field>
+        <mat-label>Barrio/vereda</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      
+      <mat-form-field>
+        <mat-label>Tipo de inmueble</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      
+      <mat-form-field>
+        <mat-label>Area</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>  
+  </div>
+  
+  <div id="bloque2">
+    <mat-form-field>
+      <mat-label>Garaje</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let food of foods" [value]="food.value">
+          {{food.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Baño</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+          </mat-option>
+        </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Plantas</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+          </mat-option>
+        </mat-select>
+    </mat-form-field>      
+  </div>
+    
+  <div id="presupuestobloque">
+    
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Desde">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Hasta">
+        </mat-form-field>
+    </form>        
+  </div>
+
+  <button mat-raised-button id="buscarbutton">Buscar</button>     
+      
+</div>

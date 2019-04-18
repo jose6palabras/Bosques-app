@@ -1,0 +1,44 @@
+container{
+    position: relative;
+    
+}
+app-footer{
+    position: absolute;
+    bottom: 0px;
+    align-content: center;
+    width: 80%;
+    margin-left: 60px;
+    margin-right: 50px;    
+}
+#techologo{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#textologo{
+    margin-left: 20px;
+}
+#menu1{
+    left: 530px;    
+}
+
+#menu2{
+    left: 580px;    
+}
+
+#menu3{
+    left: 630px;
+}
+
+#toolbar{
+    background-color: rgba(0, 149, 37, 0.9);
+    color: white;  
+    position: relative;    
+}
+#branch{
+    position: absolute;
+    right: 0px;
+    height: 60px;
+    width: 400px;    
+    z-index: -1;
+    opacity: 0.6;    
+}

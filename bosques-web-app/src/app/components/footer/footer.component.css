@@ -1,0 +1,22 @@
+footer{
+    position: relative;    
+}
+#bosqueslogo{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#direccion{
+    position: absolute;
+    bottom: 0px;
+    left: 250px;
+}
+#phiref{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+    align-items: center;
+}
+
+
