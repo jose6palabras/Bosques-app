@@ -1,6 +1,50 @@
+#homemainbloque{
+    position: relative;
+}
 #tabs{
     margin-left: 50px;
     margin-right: 50px;
     padding: 10px;
     background-color: rgba(240, 240, 240, 0.8);
 }
+
+#passants_casas{
+    position: absolute;    
+    padding: 20px;
+    left: 50px;    
+}
+#passants_aptos{
+    position: absolute;
+    padding: 20px;
+    left: 36%;    
+}
+#passants_fincas{
+    position: absolute;
+    padding: 20px;
+    right: 50px;
+}
+#passants_locales{
+    position: absolute;    
+    padding: 20px;
+    left: 50px;
+    top: 1000px;
+}
+#passants_lotes{
+    position: absolute;
+    padding: 20px;
+    left: 36%;
+    top: 1000px;
+}
+#passants_otros{
+    position: absolute;
+    padding: 20px;
+    right: 50px;
+    top: 1000px;
+}
+app-footer{
+    position: absolute;
+    top: 1900px;
+    left: 50px;
+}
+
+

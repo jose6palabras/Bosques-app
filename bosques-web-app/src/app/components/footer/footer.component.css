@@ -6,17 +6,21 @@ footer{
     bottom: 0px;
     left: 0px;
 }
-#direccion{
+address{
     position: absolute;
+    width: 450px;
     bottom: 0px;
-    left: 250px;
+    left: 180px;
 }
+
 #phiref{
     position: absolute;
     bottom: 0px;
-    right: 0px;
-    
+    left: 1000px;
     align-items: center;
+    width: 200px;
+    
+    
 }
 
 

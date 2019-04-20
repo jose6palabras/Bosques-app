@@ -7,17 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MaterialModule} from './material.module';
 import { NotFoundComponent } from './components/not-found/not-found.component';
-import { BuyformComponent } from './components/buyform/buyform.component';
-import { SoldformComponent } from './components/soldform/soldform.component';
-import { FooterComponent } from './components/footer/footer.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NotFoundComponent,
-    FooterComponent,
-      
+    NotFoundComponent,          
   ],
   imports: [
     BrowserModule,
@@ -25,7 +21,7 @@ import { FooterComponent } from './components/footer/footer.component';
     BrowserAnimationsModule,
     MaterialModule
   ],
-  providers: [],
+  providers: [  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
