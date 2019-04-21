@@ -1,6 +1,8 @@
 .example-card {
-    max-width: 300px;
+    width: 300px;
+    height: 600px;
     align-items: center;
+    background-color: rgba(240, 240, 240, 0.8);
   }
   
   

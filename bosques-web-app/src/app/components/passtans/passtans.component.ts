@@ -14,17 +14,9 @@ export class PasstansComponent implements OnInit {
       this.post = data;
     });
   }
-  
+  post = [];  
 
-  post = [];
-  
-
-  
-
-  constructor(private dataService: DataHomeService) { 
-    
-  }
-  
+  constructor(private dataService: DataHomeService) {}  
   
   indexToShow = 0;
   goToNext(index){

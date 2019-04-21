@@ -1,8 +1,15 @@
 <main class="container">
-    <img src="assets/img/techo_no_ground.png" alt="Logo" width="300" id="techologo">
+    <img routerLink="" routerLinkActive="router-link-active" src="assets/img/techo_no_ground.png" alt="Logo" width="300" id="techologo">
+    <a href="https://www.facebook.com">
+        <img src="https://img.icons8.com/color/48/000000/facebook.png" id="facebook">  
+    </a> 
+
+    <a href="https://www.instagram.com">
+        <img routerLink="https://www.instagram.com" routerLinkActive="router-link-active" src="https://img.icons8.com/color/48/000000/instagram-new.png" id="instagram">  
+    </a>   
   
     <mat-toolbar id="toolbar">
-        <img src="assets/img/texto_no_ground.png" id="textologo" alt="Bosques" width="300">
+        <img routerLink="" routerLinkActive="router-link-active" src="assets/img/texto_no_ground.png" id="textologo" alt="Bosques" width="300">
     
         <button mat-button [matMenuTriggerFor]="menu1" id="menu1">Información</button>
         <mat-menu #menu1="matMenu">

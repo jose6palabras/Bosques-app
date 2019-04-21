@@ -1,0 +1,23 @@
+
+  <button id="out-back" mat-icon-button color="primary" (click)="goToBack(indexToShow)">
+      <mat-icon aria-label="backward">arrow_back_ios</mat-icon>
+  </button>    
+  <mat-card id="example-card">
+    <img mat-card-image src={{post[indexToShow].url}} alt="Photo of a Shiba Inu" width="200">
+      <mat-card-actions >
+        <button mat-icon-button color="primary" (click)="goToBack(indexToShow)">
+          <mat-icon aria-label="backward">arrow_back_ios</mat-icon>
+        </button>
+        <button mat-icon-button color="primary" (click)="goToNext(indexToShow)">
+          <mat-icon aria-label="forward">arrow_forward_ios</mat-icon>
+        </button>
+      </mat-card-actions>
+  </mat-card>
+  <button id="out-forward" mat-icon-button color="primary" (click)="goToNext(indexToShow)">
+      <mat-icon aria-label="forward">arrow_forward_ios</mat-icon>
+  </button>
+  <p id="parrafo">{{post[indexToShow].title}}</p>
+  
+  
+
+

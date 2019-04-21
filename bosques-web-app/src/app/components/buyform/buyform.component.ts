@@ -17,9 +17,10 @@ export class BuyformComponent implements OnInit {
   ngOnInit() {
   }
   foods: Food[] = [
-    {value: 'steak-0', viewValue: 'Steak'},
-    {value: 'pizza-1', viewValue: 'Pizza'},
-    {value: 'tacos-2', viewValue: 'Tacos'}
+    {value: 'steak-0', viewValue: 'algo1'},
+    {value: 'pizza-1', viewValue: 'algo2'},
+    {value: 'tacos-2', viewValue: 'algo3'},
+    {value: 'tacos-3', viewValue: 'algo4'}
   ];
 
 }
