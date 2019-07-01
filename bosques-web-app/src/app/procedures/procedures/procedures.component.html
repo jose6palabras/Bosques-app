@@ -1,0 +1,56 @@
+<h1><img src="../../../assets/img/AsesoriaLegaledt.jpg" alt="AsesoriaLegaledt"></h1>
+<div id="bloqueppal">
+    <p id="permitenos">¡Permítenos contactarte!</p>
+    <div id="bloque1">
+      <mat-form-field>
+        <mat-label>Departamento</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      
+      <mat-form-field>
+        <mat-label>Municipio</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      
+      <mat-form-field>
+        <mat-label>Tipo de inmueble</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      
+      <mat-form-field>
+        <mat-label>Área</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let food of foods" [value]="food.value">
+            {{food.viewValue}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>  
+    </div>
+    <div id="bloque2">
+      <form class="example-form">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Nombre Propietario">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Teléfono">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Correo electrónico">
+        </mat-form-field>
+      </form>
+    </div>
+    <button mat-raised-button id="contactobutton">Contactar</button>
+  </div>
+ 

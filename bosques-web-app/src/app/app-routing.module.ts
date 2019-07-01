@@ -12,6 +12,10 @@ const routes: Routes = [
     loadChildren: './plane/plane.module#PlaneModule'
   },
   {
+    path: 'procedure',
+    loadChildren:'./procedures/procedures.module#ProceduresModule'
+  },
+  {
     path: 'not-found',
     component:NotFoundComponent
   },

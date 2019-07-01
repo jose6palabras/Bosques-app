@@ -12,6 +12,7 @@ import { PasstansComponent } from '../components/passtans/passtans.component'
 import { FooterComponent } from '../components/footer/footer.component'
 
 import { DataHomeService } from '../data-home.service'
+import { LocationService } from '../location.service'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { DataHomeService } from '../data-home.service'
     HttpClientModule
   ],
   providers: [
-    DataHomeService
+    DataHomeService,
+    LocationService
   ]
 })
 export class HomeModule { }

@@ -2,19 +2,19 @@
   <p id="permitenos">¡Permítenos contactarte!</p>
   <div id="bloque1">
     <mat-form-field>
-      <mat-label>Municipio</mat-label>
-      <mat-select>
-        <mat-option *ngFor="let food of foods" [value]="food.value">
-          {{food.viewValue}}
+      <mat-label>Departamento</mat-label>
+      <mat-select placeholder="Transaction Type" (selectionChange)="selected($event)" formControlName="TransactionTypeID">
+        <mat-option *ngFor="let i of departamentos" [value]="i">
+          {{i}}
         </mat-option>
       </mat-select>
     </mat-form-field>
     
     <mat-form-field>
-      <mat-label>Barrio/vereda</mat-label>
+      <mat-label>Municipio</mat-label>
       <mat-select>
-        <mat-option *ngFor="let food of foods" [value]="food.value">
-          {{food.viewValue}}
+        <mat-option *ngFor="let i of municipios" [value]="i">
+          {{i}}
         </mat-option>
       </mat-select>
     </mat-form-field>
